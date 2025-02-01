@@ -27,6 +27,39 @@
             background-size: 20px 20px;
         }
     </style>
+    <style>
+        /* Custom Cursor Styles */
+        body {
+            cursor: url('https://ignitia2k25.itshivam.me/CursorEffect/cursor.svg'), auto;
+        }
+
+        /* Add hover states for interactive elements */
+        button:hover, a:hover, .hover-effect:hover {
+            cursor: url('https://ignitia2k25.itshivam.me/CursorEffect/cursor.svg'), auto;
+        }
+
+        /* Existing styles */
+        @keyframes shiny {
+            0% { background-position: -500px; }
+            100% { background-position: 500px; }
+        }
+        
+        .shiny-text {
+            background: linear-gradient(90deg, #D4AF37 0%, #FFD700 50%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-size: 200% auto;
+            animation: shiny 3s linear infinite;
+        }
+
+        .golden-grid {
+            background-image: 
+                linear-gradient(rgba(212, 175, 55, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(212, 175, 55, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
 </head>
 <body class="bg-gray-900 min-h-screen">
     <!-- Hero Section -->
