@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignitia 2k25 - Golden Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes shiny {
+            0% { background-position: -500px; }
+            100% { background-position: 500px; }
+        }
+        
+        .shiny-text {
+            background: linear-gradient(90deg, #D4AF37 0%, #FFD700 50%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-size: 200% auto;
+            animation: shiny 3s linear infinite;
+        }
+
+        .golden-grid {
+            background-image: 
+                linear-gradient(rgba(212, 175, 55, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(212, 175, 55, 0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 min-h-screen">
+    <!-- Hero Section -->
+    <header class="relative h-96 overflow-hidden golden-grid">
+        <div class="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black/30"></div>
+        <div class="relative z-10 container mx-auto px-4 h-full flex items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-6xl md:text-8xl font-bold mb-6 shiny-text">
+                    Ignitia Gallery
+                </h1>
+                <p class="text-xl text-amber-200/80 max-w-2xl mx-auto">
+                    Witness the golden moments of technical brilliance and cultural magnificence
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Grid -->
+    <main class="container mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <!-- Image 1 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/1.jpg" 
+                    alt="Ignitia Moment 1" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Technical Exhibition 2023</p>
+                    <p class="text-amber-200/80 text-sm">Robotics Team Presentation</p>
+                </div>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/2.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/3.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 4 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/4.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/5.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 6 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/6.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 7 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/7.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 48 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/8.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 9 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/9.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 10 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/10.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 11 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/11.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 12 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/12.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 13 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/13.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 14 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/14.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 4 15 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/15.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 16 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/16.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 17 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/17.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 18 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/18.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 19 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/19.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 20 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/20.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 21 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/21.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 22 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/22.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 23 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/23.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 24 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/24.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 25 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/25.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 26 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/26.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 27 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/27.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            <!-- Image 28 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/28.jpg" 
+                    alt="Ignitia Moment 2" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Cultural Night 2023</p>
+                    <p class="text-amber-200/80 text-sm">Traditional Dance Performance</p>
+                </div>
+            </div>
+            
+            <!-- Image 29 -->
+            <div class="group relative overflow-hidden rounded-2xl transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                <img 
+                    src="assets/29.jpg" 
+                    alt="Ignitia Moment 29" 
+                    class="w-full h-96 object-cover transform transition duration-500 group-hover:scale-110"
+                    loading="lazy"
+                >
+                <div class="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                    <p class="text-amber-100 font-semibold text-lg">Closing Ceremony 2023</p>
+                    <p class="text-amber-200/80 text-sm">Fireworks Finale</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black/80 py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-amber-200/60 text-sm">
+                © 2023 Ignitia 2k25 - PSIT Kanpur<br>
+                Crafted with Passion in Golden Code
+            </p>
+        </div>
+    </footer>
+
+    <!-- Sparkle Effect Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const shinyElements = document.querySelectorAll('.shiny-text');
+            shinyElements.forEach(el => {
+                el.style.animation = 'shiny 3s linear infinite';
+            });
+        });
+    </script>
+</body>
+</html>
