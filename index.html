@@ -41,17 +41,35 @@
 
         /* Existing styles */
         @keyframes shiny {
-            0% { background-position: -500px; }
-            100% { background-position: 500px; }
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
-        
+
         .shiny-text {
-            background: linear-gradient(90deg, #D4AF37 0%, #FFD700 50%, #D4AF37 100%);
+            font-family: 'Cinzel Decorative', serif; /* Change font-family here */
+            font-weight: 700;
+            background: linear-gradient(90deg, #FFD700, #FF8C00, #FF4500, #FFD700);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            background-size: 200% auto;
-            animation: shiny 3s linear infinite;
+            background-size: 300% auto;
+            animation: shiny 3s ease-in-out infinite;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+        }
+        .shiny-text {
+            text-shadow: 0 0 10px rgba(255, 223, 0, 0.8), 0 0 20px rgba(255, 140, 0, 0.6);
+                }
+                .shiny-text::after {
+            content: attr(data-text); /* Keeps text visible in case of transparency issues */
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            color: #FFD700;
+            opacity: 0.3;
         }
 
         .golden-grid {
@@ -59,6 +77,22 @@
                 linear-gradient(rgba(212, 175, 55, 0.1) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(212, 175, 55, 0.1) 1px, transparent 1px);
             background-size: 20px 20px;
+        }
+        @keyframes phoenix-fire {
+            0% { text-shadow: 0 0 10px #ffae00, 0 0 20px #ff8c00, 0 0 30px #ffdd44, 0 0 40px #0057ff; }
+            50% { text-shadow: 0 0 15px #ffd700, 0 0 25px #ffcc33, 0 0 35px #ffaa00, 0 0 45px #009dff; }
+            100% { text-shadow: 0 0 10px #ffae00, 0 0 20px #ff8c00, 0 0 30px #ffdd44, 0 0 40px #0057ff; }
+        }
+
+        .phoenix-fire-text {
+            font-family: 'Cinzel Decorative', serif;
+            font-weight: 700;
+            color: #ffd700; /* Golden base with a bluish glow */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: phoenix-fire 1.8s infinite alternate ease-in-out;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.9), 0 0 20px rgba(255, 140, 0, 0.7), 
+                        0 0 30px rgba(0, 87, 255, 0.8), 0 0 40px rgba(0, 157, 255, 0.6);
         }
     </style>
 </head>
